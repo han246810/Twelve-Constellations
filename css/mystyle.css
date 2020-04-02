@@ -1,0 +1,98 @@
+/* .horoscope {
+  border: 1px solid white;
+  margin-top: 10rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  color: white;
+} */
+html,
+body {
+  height: 100%;
+  background-color: rgba(244, 247, 246, 0.938);
+}
+.box {
+  width: 90px;
+  overflow: hidden;
+  float: left;
+}
+.box img {
+  display: block;
+  width: 82%;
+  margin: 0 auto;
+}
+/* active effect */
+.box:active,
+.active {
+  /* opacity: 0.3; */
+  filter: brightness(80%);
+  transition: 1s all ease-in;
+}
+.dateSelection .active {
+  background-color: rgba(0, 0, 0, 0.075);
+  /* filter: brightness(70%); */
+  transition: 0.5s all ease-in;
+}
+
+.horoscope {
+  margin: 2rem;
+}
+
+/* date test */
+.constellation .box p {
+  color: #666;
+  font-size: 12px;
+  text-align: center;
+}
+.constellation .box h3 {
+  color: #666;
+  font-size: 12px;
+  text-align: center;
+}
+.constellation {
+  background-color: rgba(241, 245, 231, 0.808);
+}
+
+.vertical-center {
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.contentCenter {
+  position: absolute;
+  /* top: 50%; */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #666;
+}
+.analysis {
+  border: 1px solid white;
+  margin-top: 2rem;
+  background-color: rgb(142, 173, 223);
+  color: whitesmoke;
+  font-family: "Microsoft Yahei", simsun, arial, tahoma;
+  font-size: 18px;
+}
+.apiData {
+  margin: 1em;
+  color: #fad5ff;
+}
+
+hr {
+  border: 0.5px solid rgb(235, 168, 143);
+  width: 95%;
+}
+.lucky {
+  margin-top: 10px;
+}
+
+.summary {
+  margin-left: 2em;
+}
+
+/* make div has a pointer */
+.dateSelection {
+  cursor: pointer;
+}

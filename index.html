@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>十二星座</title>
+  <!-- Latest compiled and minified CSS -->
+
+</head>
+
+<body>
+  <!--horoscope-->
+  <div class="container ">
+    <div class="horoscope">
+      <div class="row constellation">
+
+      </div>
+    </div>
+
+    <!-- date selection -->
+    <div class="row">
+      <div class="row col-8 mx-auto dateSelection">
+        <div class="col-2  " value="today">今日运势</div>
+        <div class="col-2 " value="tomorrow">明日运势</div>
+        <div class="col-2  " value="week">本周运势</div>
+        <div class="col-2  " value="nextweek">下周运势</div>
+        <div class="col-2  " value="month">本月运势</div>
+        <div class="col-2  " value="year">今年运势</div>
+      </div>
+    </div>
+
+
+    <!-- detail data from api -->
+    <div class="row ">
+      <div class="col-8 mx-auto analysis  ">
+        <div class="consHeader text-center"> </div>
+        <div class="row text-center lucky">
+          <div class="col-4 luckyIndex ">幸運指數</div>
+          <div class="col-4 luckyColor">幸運顏色</div>
+          <div class="col-4 luckyNumber">幸運號碼</div>
+        </div>
+        <hr>
+        <div class="row text-center others">
+          <div class="col-4 luckyLove">愛情</div>
+          <div class="col-4 luckyWork">工作</div>
+          <div class="col-4 luckyFortune">財運</div>
+        </div>
+        <hr>
+        <div class="row text-center summary">
+          <h3 class="sumHeader">Summary</h3>
+          <div class="sumContent"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="testCircle"></div>
+    <div id="testCircle2"></div>
+  </div>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/circleProgress.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+  <link rel="stylesheet" href="css/myCircleProgress.css">
+  </link>
+</body>
+
+</html>

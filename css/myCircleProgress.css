@@ -1,0 +1,39 @@
+/* circle */
+
+/* the word insider circle */
+/* .progress-percentage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  font-family: verdana;
+  font-weight: bold;
+  color: #fad5ff;
+} */
+
+/* delete the world plug in class */
+.progress-percentage {
+  position: absolute;
+  display: none;
+}
+
+#testCircle {
+  position: relative;
+  background-color: brown;
+}
+
+.circleWord {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  font-family: verdana;
+  font-weight: bold;
+  color: #fad5ff;
+}
+
+.noCicle {
+  margin-top: 65px;
+}

@@ -4,4 +4,4 @@ The api will be expired in one and half month. It is hard to find a free constel
 
 ## Demo
 
-![image info](images/demo.png)
+![image info](images/demo.PNG)
